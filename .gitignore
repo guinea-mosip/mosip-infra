@@ -31,3 +31,4 @@ test.txt
 .vscode
 __pycache__
 /venv/
+/deployment/sandbox-v2/secrets.txt
