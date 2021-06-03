@@ -27,8 +27,8 @@ spec:
         imagePullPolicy: {{ .Values.imagePullPolicy }}
         env:
         - name: biosdk_zip_file_path
-          value: { { .Values.biosdklibzip } }
+          value: {{ .Values.biosdklibzip }}
         - name: biosdk_bioapi_impl
-          value: { { .Values.biosdklib } }
+          value: {{ .Values.biosdklib }}
         ports:
         - containerPort: {{ .Values.services.containerPort }} 
