@@ -97,13 +97,13 @@ versions:
         
     ida:
       auth:
-        'ida-auth-service': 'mosipid/authentication-service:1.1.5.1'
+        'ida-auth-service': 'mosipid/authentication-service:1.1.5.3'
       internal: 
-         'ida-internal-service': 'mosipid/authentication-internal-service:1.1.5.1'
+         'ida-internal-service': 'mosipid/authentication-internal-service:1.1.5.3'
       kyc: 
-         'ida-kyc-service': 'mosipid/authentication-kyc-service:1.1.5.1'
+         'ida-kyc-service': 'mosipid/authentication-kyc-service:1.1.5.3'
       otp: 
-         'ida-otp-service': 'mosipid/authentication-otp-service:1.1.5.1'
+         'ida-otp-service': 'mosipid/authentication-otp-service:1.1.5.3'
       keygen:  
         'ida-key-generator': 'mosipid/keys-generator:1.1.5'
 
