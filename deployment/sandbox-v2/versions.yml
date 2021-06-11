@@ -163,4 +163,4 @@ versions:
 
     artifactory:
       service:
-        'artifactory-service': 'mosipid/artifactory-server:1.1.5'
+        'artifactory-service': 'ankitvaishnav/artifactory-server:dev'
