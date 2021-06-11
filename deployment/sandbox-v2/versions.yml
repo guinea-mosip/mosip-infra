@@ -18,7 +18,7 @@ versions:
       key:
         'kernel-keymanager-service': 'mosipid/kernel-keymanager-service:1.1.5.1'
       notifier:
-        'kernel-notification-service': 'mosipid/kernel-notification-service:1.1.5.1'
+        'kernel-notification-service': 'ankitvaishnav/kernel-notification-service:dev'
       otp:
         'kernel-otpmanager-service': 'mosipid/kernel-otpmanager-service:1.1.5.1'
       rid:
