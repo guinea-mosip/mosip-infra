@@ -18,7 +18,7 @@ versions:
       key:
         'kernel-keymanager-service': 'mosipid/kernel-keymanager-service:1.1.5.3'
       notifier:
-        'kernel-notification-service': 'mosipid/kernel-notification-service:1.1.5.3'
+        'kernel-notification-service': 'ankitvaishnav/kernel-notification-service:guinea'
       otp:
         'kernel-otpmanager-service': 'mosipid/kernel-otpmanager-service:1.1.5.3'
       rid:
@@ -38,11 +38,11 @@ versions:
       captcha:
         'prereg-captcha-service': 'mosipid/pre-registration-captcha-service:1.1.5.2'
       ui:
-        'prereg-ui': 'mosipid/pre-registration-ui:1.1.5.2'
+        'prereg-ui': 'ankitvaishnav/pre-registration-ui:guinea'
       
     registration_client:
       downloader:
-        'reg-client-downloader': 'mosipid/registration-client:1.1.5.4'
+        'reg-client-downloader': 'ankitvaishnav/registration-client:guinea'
       version: 1.1.5.4
 
     regproc:
