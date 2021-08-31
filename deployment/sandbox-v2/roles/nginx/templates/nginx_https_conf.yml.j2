@@ -49,6 +49,10 @@ http {
         location / {
         }
 
+        location /v1/datashare/ {
+           proxy_pass {{clusters.mz.ingress.base_url}}/v1/datashare/;
+        }
+
         error_page 404 /404.html;
             location = /40x.html {
         }
@@ -320,8 +324,8 @@ http {
            proxy_pass {{clusters.mz.ingress.base_url}}/v1/datashare/;
         }
 
-        location /v1/biosdk-service/ {
-           proxy_pass {{clusters.mz.ingress.base_url}}/v1/biosdk-service/;
+        location /biosdk-service/ {
+           proxy_pass {{clusters.mz.ingress.base_url}}/biosdk-service/;
         }
 
         location /v1/print/ {
