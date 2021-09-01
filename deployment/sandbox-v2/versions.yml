@@ -163,5 +163,5 @@ versions:
 
     artifactory:
       service:
-        'artifactory-service': 'ankitvaishanv/artifactory-server:guinea'
+        'artifactory-service': 'ankitvaishnav/artifactory-server:guinea'
 
